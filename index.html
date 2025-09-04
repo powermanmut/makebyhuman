@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Static Website</title>
+  <meta charset="UTF-8">
+  <title>Welcome</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      font-size: 32px;
+      font-weight: bold;
+      color: white;
+      background: url("bg.png") no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .center-text {
+      background: rgba(0, 0, 0, 0.5); /* ทำให้ข้อความอ่านง่าย */
+      padding: 20px 40px;
+      border-radius: 12px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.4);
+    }
+  </style>
 </head>
 <body>
-    <h1>Welcome to my website!</h1>
-    <p>This is a static website hosted on Cloudflare Pages.</p>
+  <div class="center-text">
+    Make by Human
+  </div>
 </body>
 </html>
+
